@@ -8,9 +8,6 @@ Ubibot Temp Sensor S9 Heat Regulation<br>
 A FastAPI-based control panel and automation toolkit for dynamically adjusting your Antminer S9/S9i's power output based on room temperature from a UbiBot sensor.
 Turns your miner into a <strong>smart heater</strong> that keeps your space warm, safe, and energy-efficient — all while earning Bitcoin.
 </p>
-
-<img src="https://media.giphy.com/media/gH1jlGMRlnVckVYMjG/giphy.gif" alt="Bitcoin Miner" width="100%"/>
-
 <hr/>
 
 <h2>📁 Folder Structure</h2>
