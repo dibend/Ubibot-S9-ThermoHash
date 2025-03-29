@@ -101,13 +101,13 @@ temp_to_power_mapping = {
 <hr/>
 
 <h2>⏱️ Add to Cron</h2>
-<p>Automate temperature-based power adjustments every 5 minutes:</p>
+<p>Automate temperature-based power adjustments every hour:</p>
 <pre>
 crontab -e
 </pre>
 
 <pre>
-*/5 * * * * /usr/bin/python3 /path/to/scripts/get-room-temp-ubibot.py | xargs -r /usr/bin/python3 /path/to/scripts/thermohash.py >> /absolute/path/to/logfile.log 2>&1
+22 * * * * /usr/bin/python3 /path/to/scripts/get-room-temp-ubibot.py | xargs -r /usr/bin/python3 /path/to/scripts/thermohash.py >> /absolute/path/to/logfile.log 2>&1
 </pre>
 
 <p>
